@@ -1,0 +1,55 @@
+body{
+	background-color: #f3f7f8;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	font-size: medium;
+}
+
+body, span {
+	font-size: medium;
+}
+
+header {
+	background-color: white;
+	box-shadow: 0px 2px 25px  rgb(177, 175, 175);
+	margin-bottom:50px;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+
+li {
+	list-style-image: url(../images/bullet.png) ;
+}
+
+.ombre{
+	box-shadow: 0px 2px 25px  rgb(201, 201, 201);
+	border-radius: 15px;
+	background-color: white;
+}
+#btn-charte{
+	color: white;
+	background-color: #e40034;
+	margin: 0px 0px 0px 25px ;
+}
+
+.container{
+	padding: 2%;
+	margin-bottom: 20px;
+}
+
+h1{
+	font-size: xx-large;
+}
+
+.two {
+	text-align: left;
+}
+
+#btn-random{
+	position: relative;
+	left: 50%;
+}
